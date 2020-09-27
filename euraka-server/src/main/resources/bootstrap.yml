@@ -1,0 +1,10 @@
+server:
+  port: 8500
+
+spring:
+  application:
+    name: euraka-server
+  cloud:
+    config:
+      profile: native
+      uri: http://localhost:8888
